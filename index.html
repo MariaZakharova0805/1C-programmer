@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/61795b381c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Светала Илюф 1С</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center text-white">Ваш специалист 1С</h1>
+            <div class="circle" data-bs-toggle="modal" data-bs-target="#Modal">
+              <div class="angleBtn"></div>
+            </div>
+
+            <a href="#footer" type="button" class="btn text-uppercase"
+              >Заказать</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Гарантии -->
+    <section class="about colorBgGrey pb-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-uppercase text-center colorR">Что вы получите?</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle"><i class="fa-solid fa-glasses"></i></div>
+            <h5>Профессиональная помощь 1С</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle">
+              <i class="fa-solid fa-hand-point-up"></i>
+            </div>
+            <h5>Высокое качество услуг</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle"><i class="fa-solid fa-phone-volume"></i></div>
+            <h5>Своевременная помощь</h5>
+            <div class="line"></div>
+          </div>
+
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle"><i class="fa-solid fa-handshake"></i></div>
+            <h5>Плодотворное сотрудничество</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+            <h5>Быстрое решение проблем</h5>
+            <div class="line"></div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12 item">
+            <div class="y_circle">
+              <i class="fa-sharp fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h5>Забота о вашем продукте</h5>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Кому необходим специалист 1С -->
+    <section class="colorBgWhite">
+      <div class="container">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center colorR">
+            Вам нужен специалист 1С, если...
+          </h2>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6 col-sm-12">
+            <div class="square">
+              <p>
+                Вам требуется настройка, обновление и модернизациея стандартных
+                конфигураций.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="square">
+              <p>
+                Вы хотите создать свою собственную конфигурацию с полного нуля
+                для решения задач конкретной Вашей компании.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="square">
+              <p>
+                Не хотите обращаться в службу поддержки 1С, платить им кучу
+                денег и ждать внесения изменений по полгода.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="square">
+              <p>
+                Хотите иметь современное и универсальное решение для
+                бухгалтерии, соответствующее потребностям и задачам Ваших
+                сотрудников.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Варианты сотрудничества -->
+    <section class="colorBgGrey">
+      <div class="container c">
+        <div class="col-12">
+          <h2 class="text-uppercase text-center colorR">
+            Варианты сотрудничества
+          </h2>
+        </div>
+
+        <div class="row">
+          <!-- Первый блок -->
+          <div class="col-md-4 col-sm-12">
+            <h4>Консультация</h4>
+            <div class="accordion accordion-flush" id="accordionFirst">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFirstOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFirstOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFirstOne"
+                  >
+                    Когда
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFirstOne"
+                  class="accordion-collapse show"
+                  aria-labelledby="flush-headingFirstOne"
+                  data-bs-parent="#accordionFirst"
+                >
+                  <div class="accordion-body">
+                    Документ в 1С «ругается» при проведении? Отчет выдает
+                    неверные данные? Как правильнее отразить специфическую
+                    операцию конкретно в вашем случае? Вы не вполне понимаете
+                    логику работы модифицированной программистами системы? Как
+                    корректно выполнить закрытие периода? Сформировать и
+                    отправить отчетность быстро и без ошибок?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFirstTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFirstTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFirstTwo"
+                  >
+                    Что входит
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFirstTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFirstTwo"
+                  data-bs-parent="#accordionFirst"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        Консультации без необходимости анализа данных в базе 1С.
+                      </li>
+
+                      <li>
+                        Консультации с необходимостью анализа программного кода
+                        1С, например, в случае, когда система является
+                        доработанной (не типовой)
+                      </li>
+                    </ul>
+                    В кратчайшие сроки, закрепленные за Вами, найду ошибки в
+                    учете, подскажу, как отразить операцию, помогу сформировать
+                    и проверить отчетность.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFirstThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFirstThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFirstThree"
+                  >
+                    Стоимость
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFirstThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFirstThree"
+                  data-bs-parent="#accordionFirst"
+                >
+                  <div class="accordion-body">
+                    от 700р (в зависимости от сложности консультации)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Второй блок -->
+          <div class="col-md-4 col-sm-12">
+            <h4>Разовая помощь</h4>
+            <div class="accordion accordion-flush" id="accordionSecond">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSecondOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSecondOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSecondOne"
+                  >
+                    Когда
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSecondOne"
+                  class="accordion-collapse show"
+                  aria-labelledby="flush-headingSecondOne"
+                  data-bs-parent="#accordionSecond"
+                >
+                  <div class="accordion-body">
+                    У вас доработанная база 1С и возникли ошибки? Или же вы
+                    хотите внести изменения для удобства вашей работы? Вам нужно
+                    протестировать новую программу, перенести данные со старой
+                    базы и обновить программу?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSecondTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSecondTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSecondTwo"
+                  >
+                    Что входит
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSecondTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSecondTwo"
+                  data-bs-parent="#accordionSecond"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Помощь в ведении/исправления учета в программе</li>
+                      <li>
+                        Исправление технических/критических ошибок в программе
+                      </li>
+                      <li>Обновление программы</li>
+                      <li>Тестирование и выявление неполадок в системе 1С</li>
+                      <li>Переносы данных</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSecondThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSecondThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSecondThree"
+                  >
+                    Стоимость
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSecondThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSecondThree"
+                  data-bs-parent="#accordionSecond"
+                >
+                  <div class="accordion-body">
+                    от 3 000 руб.(в зависимости от сложности консультации)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Третий блок -->
+          <div class="col-md-4 col-sm-12">
+            <h4>Постоянное сотрудничество</h4>
+            <div class="accordion accordion-flush" id="accordionThird">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Когда
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse show"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionThird"
+                >
+                  <div class="accordion-body">
+                    Вам необходима поддержка специласта 1С на постоянной основе?
+                    У вас еще нет установленной программы для работы и вам нужна
+                    помощь в ее установке? Хотите расширить функциональность?
+                    Требуется администрирование базы данных? Хотите перейти на
+                    новую базу? Необходимо обучение пользователей при переходе
+                    на новую версию?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Что входит
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionThird"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        Помощь в подоборке конфигурацию, которая лучше всего
+                        подойдёт вашей компании
+                      </li>
+                      <li>
+                        Установка программы на сервер, локальный компьютер или в
+                        облако, настройка базы данных и доступ к ним
+                        пользователей
+                      </li>
+                      <li>
+                        Настройка отчётов, справочников, документов, дорабатка
+                        конфигурации, настройка обмена данными между
+                        конфигурациями
+                      </li>
+                      <li>
+                        Настройка в интернет-магазине выгрузки данных о
+                        номенклатуре, цене и остатках товаров на сайте, а также
+                        загрузку сведений о заказах
+                      </li>
+                      <li>
+                        Подключение торгового оборудование (сканеры штрих-кодов,
+                        весы, кассы) к «1С»
+                      </li>
+                      <li>
+                        Чистка, тестирование, исправление ошибок, резервное
+                        копирование, восстанавление при сбоях
+                      </li>
+                      <li>Обновление конфигурации</li>
+                      <li>
+                        Обучение пользователей работе с программой, демонстрация
+                        её возможности.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Стоимость
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionThird"
+                >
+                  <div class="accordion-body">
+                    Стоимость будет зависить от объема работы. Постоянным
+                    клиентам предоставляются скидки.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О специалисте -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-uppercase text-center colorR">О специалисте</h2>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-sm-12 mt-sm-5 text-center">
+            <img
+              src="img/svetlana.png"
+              alt="Светлана Илюф"
+              class="img-fluid myIMG"
+            />
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <h4>Илюф Светлана Валерьевна</h4>
+            <p>
+              Имею 5-летний опыт удаленной поддержки пользователей по продуктам
+              1С. Самостоятельная настройка под конкретную компанию с учетом
+              специфики бизнеса. Имеется опыт организации обмена данными между
+              отраслевыми структурами.
+            </p>
+            <p>
+              Аккуратный и интеллигентный, надежный, ответственный, активный в
+              работе сотрудник, могу работать в команде, быстро всему обучаюсь.
+              Я стремлюсь знать как можно больше и даже, если я чего-то не знаю,
+              то выучу в кратчайшие сроки. Языки: русский, английский.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы клиентов -->
+
+    <section class="feedback colorBgGrey pb-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-uppercase text-center colorR">отзывы</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-xl-4 col-md-6 col-sm-12 align-items-center circle-image"
+          >
+            <img src="img/client1.jpg" />
+
+            <div class="line"></div>
+            <p>
+              Очень рада, что начала сотрудничать со Светланой. Когда я
+              подписывала договор, то даже не догадывалась, что нашла не только
+              хорошего специалиста, который поможет установить новую версию
+              программы, но и получила необходимые инструменты для этого -
+              настроенную систему 1С, в которой смогла работать сама и
+              сотрудники компании.
+            </p>
+          </div>
+          <div
+            class="col-xl-4 col-md-6 col-sm-12 align-items-center circle-image"
+          >
+            <img src="img/client2.jpg" />
+
+            <div class="line"></div>
+            <p>
+              Всегда приятно иметь дело с таким профессионалом как Светлана.
+              Наша компания начала сотрудничество со специлаистом с марта 2021
+              года. Благодаря высокому профессионализму и чуткому человеческому
+              отношению Светланы ко всем без исключения нашим проблемам и
+              вопросам, нам удалось не только быстро и оперативно их решить, но
+              и значительно съэкономить на услугах бухгалтера по сравнению со
+              штатным специалистом.
+            </p>
+          </div>
+          <div
+            class="col-xl-4 col-md-6 col-sm-12 align-items-center circle-image"
+          >
+            <img src="img/client3.jpg" />
+
+            <div class="line"></div>
+            <p>
+              ООО «Авто-детали» в лице главного бухгалтера Прокопенкова О.К.
+              просит объявить благодарность Илюф Светлане за внимательное
+              отношение к клиентам и высокие профессиональные показатели.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a
+              href="https://wa.me/79165225986"
+              target="_blank"
+              class="btn btn-outline-light"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a
+              href="https://t.me/small_kotovas"
+              target="_blank"
+              class="btn btn-outline-light"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a
+              href="mailto:9165225986@rambler.ru"
+              target="_blank"
+              class="btn btn-outline-light"
+              ><i class="bi bi-envelope"></i
+            ></a>
+            <a
+              href="tel:+79165225986"
+              target="_blank"
+              class="btn btn-outline-light"
+              ><i class="bi bi-telephone-outbound"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="Modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">Ваш специалист 1С</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <video width="100%" height="auto" autoplay>
+              <source src="img/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
