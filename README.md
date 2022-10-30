@@ -1,5 +1,5 @@
 # 1C-programmer
 Website for 1C programmer: [click me to see it online](https://mariazakharova0805.github.io/1C-programmer/)
 - Simple one-page website
-- Build with Bootstrap and CSS
-- You can contact 1C programmer using this website
+- Build with HTML and CSS
+- Based on Bootstrap
